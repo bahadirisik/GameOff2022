@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &962171622949071500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165856094895854989}
+  - component: {fileID: 834198724483703781}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &165856094895854989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962171622949071500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1053.4736, y: 721.4684, z: -57.203323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834198724483703781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962171622949071500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fe64f7697999346a641bc6890a5d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Killed
+    clip: {fileID: 8300000, guid: e7a09f12dda519a4595a174582ba3e80, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: EnemyKilled1
+    clip: {fileID: 8300000, guid: 6d308bae8c01a5c4790808228fb48d64, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: EnemyKilled2
+    clip: {fileID: 8300000, guid: 7ceb4c40f72dc724abcc86d077f00739, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: EnemyKilled3
+    clip: {fileID: 8300000, guid: 029107b5d8b387446978adfdb10ad881, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Menu
+    clip: {fileID: 8300000, guid: 771edcc9cb1233a4384a5dd789662d84, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Theme2
+    clip: {fileID: 8300000, guid: 1916fbf696fc5f14aa3965582d3b8082, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Theme3
+    clip: {fileID: 8300000, guid: ddd0dfe0542bc6843a06311b2253733a, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Theme4
+    clip: {fileID: 8300000, guid: 348da88215bf3fb4f9e3abe1a9a0b546, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Graveyard
+    clip: {fileID: 8300000, guid: a4cb593a025c0c8488e40917266daf46, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: a3ffbaf31d4b4354f9d4aa7ef7d7d0d0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Clock
+    clip: {fileID: 8300000, guid: 430a74aaa7baf424b94445b3649aee16, type: 3}
+    volume: 0.65
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 73d6ca00adb1b8a40a3e8bcdbffd486d, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Winning
+    clip: {fileID: 8300000, guid: b63337f8582898443b879738fb745d19, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: Orb
+    clip: {fileID: 8300000, guid: 86e7bd6d2c7271c448be06a6b42bc9b0, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: End
+    clip: {fileID: 8300000, guid: 2333229262af47e469cb73e131a6385e, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: BossDeath
+    clip: {fileID: 8300000, guid: bdde789d108c11b47a4e0d2a29409aaa, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: b1033669994916648be7de8776d1cc7d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: BossGrowl1
+    clip: {fileID: 8300000, guid: 25769100a38d54f48bcb53408d642dd6, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: BossGrowl2
+    clip: {fileID: 8300000, guid: cbf0952741a3949498d93d88212a0412, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
+  - name: BossGrowl3
+    clip: {fileID: 8300000, guid: b32ad73bd8b2d674b9d3c8da99efd102, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 35716218d07143647be61b26b47f510a, type: 2}
+    source: {fileID: 0}
