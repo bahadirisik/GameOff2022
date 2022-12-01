@@ -10548,7 +10548,7 @@ MonoBehaviour:
   - {fileID: 5048910465244960899, guid: 4a78820a827929540ac7a29824530812, type: 3}
   - {fileID: 2803880349058390393, guid: ebca91a9985dc0540b88696477be8d93, type: 3}
   - {fileID: 2501337526481419943, guid: f032790db808cf749827791eba0deeb7, type: 3}
-  randomMaxRate: 6
+  randomMaxRate: 10
 --- !u!1 &2069447194
 GameObject:
   m_ObjectHideFlags: 0

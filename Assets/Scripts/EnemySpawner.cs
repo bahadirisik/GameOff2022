@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour
 
 	IEnumerator SpawnEnemy()
 	{
-		randomWaitTime = Random.Range(5f,8f);
+		randomWaitTime = Random.Range(7f,9f);
 		Instantiate(enemyLittleOne, transform.position, Quaternion.identity);
 		yield return new WaitForSeconds(randomWaitTime);
 		StartCoroutine(SpawnEnemy());

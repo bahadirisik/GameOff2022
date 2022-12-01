@@ -10546,7 +10546,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 2803880349058390393, guid: ebca91a9985dc0540b88696477be8d93, type: 3}
   - {fileID: 5048910465244960899, guid: 4a78820a827929540ac7a29824530812, type: 3}
-  randomMaxRate: 3
+  randomMaxRate: 8
 --- !u!1 &2069447194
 GameObject:
   m_ObjectHideFlags: 0
